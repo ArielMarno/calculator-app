@@ -3,8 +3,9 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    min-height: 50vh;
     background-color: #B1A2DA;
+    padding: 5rem;
 }
 
 .logo-footer{
@@ -21,9 +22,13 @@ footer{
 
 .social{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+}
+.social img{
+    width: 35px;
 }
 
 .developer{
