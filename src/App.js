@@ -1,17 +1,15 @@
 import './App.css';
-import AgeCalculator from './componets/AgeCalculator';
-import { Cover } from './componets/Cover';
+import CalculadorDeEdad from './componets/CalculadorDeEdad';
 import Footer from './componets/Footer';
-import { NavBar } from './componets/NavBar';
-import PercentageCalculator from './componets/PercentageCalculator';
+import NavBar from './componets/NavBar';
+import CalculadorDePorcentaje from './componets/CalculadorDePorcentaje';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Cover />
-      <AgeCalculator />
-      <PercentageCalculator />
+      <CalculadorDeEdad />
+      <CalculadorDePorcentaje />
       <Footer />
     </div>
   );
